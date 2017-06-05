@@ -1,0 +1,142 @@
+[
+  {
+    "model": "tracks.artist",
+    "pk": 1,
+    "fields": {
+      "name": "Led Zeppelin",
+      "image_url": "https://artistheader.scdn.co/36QJpDe2go2KgaRleHCDTp/desktop_cat/658dcc71-e827-4142-88ea-823e901d8a98"
+    }
+  },
+  {
+    "model": "tracks.artist",
+    "pk": 2,
+    "fields": {
+      "name": "Aerosmith",
+      "image_url": "https://artistheader.scdn.co/7Ey4PD4MYsKc5I2dolUwbH/desktop_cat/48deeb18-5c70-4b82-9dda-438f02ec8c9a"
+    }
+  },
+  {
+    "model": "tracks.album",
+    "pk": 1,
+    "fields": {
+      "name": "Celebration Day",
+      "image_url": "https://i.scdn.co/image/a867ac7ab82d75f79a29aff6cce5237df9ab3c78",
+      "artist": 1
+    }
+  },
+  {
+    "model": "tracks.album",
+    "pk": 2,
+    "fields": {
+      "name": "Mothership (Remastered)",
+      "image_url": "https://i.scdn.co/image/37e17a2b4df113e3de4b57f46d87b625345134e5",
+      "artist": 1
+    }
+  },
+  {
+    "model": "tracks.album",
+    "pk": 3,
+    "fields": {
+      "name": "Live In Berlin",
+      "image_url": "https://i.scdn.co/image/01210ee8bf96e0d6c8e6941df6d6ee0663d8401c",
+      "artist": 2
+    }
+  },
+  {
+    "model": "tracks.album",
+    "pk": 4,
+    "fields": {
+      "name": "Music From Another Dimension!",
+      "image_url": "https://i.scdn.co/image/332e01f24f1eb71d898eb0db8d3d641eea5b0240",
+      "artist": 2
+    }
+  },
+  {
+    "model": "tracks.track",
+    "pk": 1,
+    "fields": {
+      "name": "Good Times Bad Times",
+      "preview_url": "",
+      "track_number": 1,
+      "album": 1,
+      "artists": [1]
+    }
+  },
+  {
+    "model": "tracks.track",
+    "pk": 2,
+    "fields": {
+      "name": "Ramble On",
+      "preview_url": "",
+      "track_number": 2,
+      "album": 1,
+      "artists": [1]
+    }
+  },
+  {
+    "model": "tracks.track",
+    "pk": 3,
+    "fields": {
+      "name": "Good Times Bad Times",
+      "preview_url": "",
+      "track_number": 1,
+      "album": 2,
+      "artists": [1]
+    }
+  },
+  {
+    "model": "tracks.track",
+    "pk": 4,
+    "fields": {
+      "name": "Communication Breakdown",
+      "preview_url": "",
+      "track_number": 2,
+      "album": 2,
+      "artists": [1]
+    }
+  },
+  {
+    "model": "tracks.track",
+    "pk": 5,
+    "fields": {
+      "name": "Love In An Elevator",
+      "preview_url": "",
+      "track_number": 1,
+      "album": 3,
+      "artists": [2]
+    }
+  },
+  {
+    "model": "tracks.track",
+    "pk": 6,
+    "fields": {
+      "name": "Falling In Love (Is Hard On The Knees)",
+      "preview_url": "",
+      "track_number": 2,
+      "album": 3,
+      "artists": [2]
+    }
+  },
+  {
+    "model": "tracks.track",
+    "pk": 7,
+    "fields": {
+      "name": "LUV XXX",
+      "preview_url": "",
+      "track_number": 1,
+      "album": 4,
+      "artists": [2]
+    }
+  },
+  {
+    "model": "tracks.track",
+    "pk": 8,
+    "fields": {
+      "name": "Oh Yeah",
+      "preview_url": "",
+      "track_number": 2,
+      "album": 4,
+      "artists": [2]
+    }
+  }
+]
