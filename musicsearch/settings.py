@@ -25,7 +25,7 @@ SECRET_KEY = 'w2bbo2&(pd*z%gqtocoae&jk7103sbeuv)r-*dxgjr27inc$50'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -81,11 +81,10 @@ WSGI_APPLICATION = 'musicsearch.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'musicsearch',
-        'USER': 'pakgva',
-        'PASSWORD': '123456',
-        'HOST': 'localhost',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'HOST': 'db',
         'PORT': '5432'
     }
 }
