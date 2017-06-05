@@ -82,10 +82,11 @@ WSGI_APPLICATION = 'musicsearch.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
+        'NAME': 'musicsearch',
         'USER': 'postgres',
         'HOST': 'db',
-        'PORT': '5432'
+        'PORT': '5432',
+        'PASSWORD': '123456'
     }
 }
 

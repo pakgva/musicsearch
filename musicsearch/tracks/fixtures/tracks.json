@@ -77,7 +77,7 @@
     "model": "tracks.track",
     "pk": 3,
     "fields": {
-      "name": "Good Times Bad Times",
+      "name": "Dazed and Confused",
       "preview_url": "",
       "track_number": 1,
       "album": 2,

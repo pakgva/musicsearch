@@ -5,3 +5,7 @@ WORKDIR /code
 ADD requirements.txt /code/
 RUN pip install -r requirements.txt
 ADD . /code/
+
+# Wait
+COPY ./wait-for-it.sh /tmp/wait-for-it.sh
+RUN chmod +x /tmp/wait-for-it.sh
